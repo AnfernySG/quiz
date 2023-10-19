@@ -20,9 +20,9 @@ public class Quiz {
         double sumaDeSalarios = 0;
         Double  SEM = 0.0925;
         Double IVM = 0.0508;
-        Double rebajoSEM;
-        Double rebajoIVM;
-        Double rebajos;
+        double rebajoSEM = 0;
+        double rebajoIVM = 0;
+        double rebajos = 0;
         
         System.out.println("Bienvenidos ");
         
@@ -38,7 +38,7 @@ public class Quiz {
         }
         rebajoSEM = sumaDeSalarios * SEM;
         rebajoIVM = sumaDeSalarios * IVM;
-        rebajos = (rebajoSEM+rebajoIVM);
+        rebajos = rebajoSEM+rebajoIVM;
         
         
                 
